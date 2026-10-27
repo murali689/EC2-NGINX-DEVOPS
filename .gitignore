@@ -1,0 +1,19 @@
+# Terraform state and local files
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.tfplan
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
